@@ -2,6 +2,10 @@
 
 **A predictive controller that gets its performance from a model learned from data and its safety from a second, guaranteed model built from the same data. Both keep learning while the system runs.**
 
+![The same run with and without certified inputs: safe vs crash after 12.8 s](docs/figures/demo.gif)
+
+*Same planner, learned model, data and disturbances (run 3 of 5): with the certified inputs the robot stays safe; with the learned model alone it crashes after 12.8 s ([script](examples/demo_gif.py)).*
+
 This package implements the *compatible models approach* of
 
 > A. Makdesi, A. Girard, L. Fribourg. *Safe Learning-Based Model Predictive Control Using the Compatible Models Approach.* European Journal of Control, 74, 100849, 2023. [doi:10.1016/j.ejcon.2023.100849](https://doi.org/10.1016/j.ejcon.2023.100849)
