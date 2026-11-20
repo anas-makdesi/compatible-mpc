@@ -1,0 +1,108 @@
+{
+  "runs": [
+    {
+      "seed": 0,
+      "mode": "compatible",
+      "time_s": 96.4,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.14360971926320396,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 0,
+      "mode": "baseline",
+      "time_s": 93.2,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.07065758645793396,
+      "left_invariant_set": 1
+    },
+    {
+      "seed": 1,
+      "mode": "compatible",
+      "time_s": 94.80000000000001,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.1461734213787449,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 1,
+      "mode": "baseline",
+      "time_s": 92.60000000000001,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.10109899326696281,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 2,
+      "mode": "compatible",
+      "time_s": 95.60000000000001,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.17278774573675104,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 2,
+      "mode": "baseline",
+      "time_s": 12.8,
+      "laps": 1,
+      "collisions": 1,
+      "min_clearance_m": -0.15769435845877933,
+      "left_invariant_set": 2
+    },
+    {
+      "seed": 3,
+      "mode": "compatible",
+      "time_s": 96.60000000000001,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.15621564963509948,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 3,
+      "mode": "baseline",
+      "time_s": 92.0,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.03695530334116759,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 4,
+      "mode": "compatible",
+      "time_s": 94.4,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.15068643867497045,
+      "left_invariant_set": 0
+    },
+    {
+      "seed": 4,
+      "mode": "baseline",
+      "time_s": 95.2,
+      "laps": 10,
+      "collisions": 0,
+      "min_clearance_m": 0.09912200138283515,
+      "left_invariant_set": 0
+    }
+  ],
+  "compatible": {
+    "runs": 5,
+    "runs_with_collision": 0,
+    "mean_time_s_runs_without_collision": 95.56000000000002,
+    "min_clearance_m": 0.14360971926320396,
+    "mean_min_clearance_m": 0.15389459493775398
+  },
+  "baseline": {
+    "runs": 5,
+    "runs_with_collision": 1,
+    "mean_time_s_runs_without_collision": 93.25,
+    "min_clearance_m": -0.15769435845877933,
+    "mean_min_clearance_m": 0.030027905198024042
+  }
+}

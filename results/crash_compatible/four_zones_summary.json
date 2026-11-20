@@ -1,0 +1,41 @@
+{
+  "laps": 1,
+  "steps": 72,
+  "time_s": 14.4,
+  "collisions": 0,
+  "left_invariant_set": 0,
+  "max_speed_used": 2.0,
+  "min_clearance_m": 0.22639978452613238,
+  "offline_models_s": 13.006792219000033,
+  "safe_set_first_s_incl_compile": 0.22052347900000768,
+  "safe_set_s": 0.06540924099999756,
+  "safe_set_resolve_median_s": 0.055040135500007636,
+  "method": "cem",
+  "mpc_step_median_ms": 17.365218999998433,
+  "mpc_step_p95_ms": 32.5200628000033,
+  "plans_evaluated_per_step": 2000.0,
+  "learning_update_median_ms": 0.9578940000380953,
+  "invariant_fraction_start": 0.8704090909090909,
+  "invariant_fraction_end": 0.8726818181818182,
+  "rmse_fast_offline": [
+    0.8937058452157925,
+    0.8101881032077706,
+    5.326361085724454
+  ],
+  "rmse_fast_online": [
+    0.40618450457150224,
+    0.7679218234555859,
+    2.7522282601592654
+  ],
+  "turn_model_width_fast_offline": 11.90656561577127,
+  "turn_model_width_fast_end": 5.796087186922465,
+  "lap_times_s": [
+    13.6
+  ],
+  "mean_speed_per_lap": [
+    1.22
+  ],
+  "min_certified_top_speed_per_lap": [
+    1.48
+  ]
+}

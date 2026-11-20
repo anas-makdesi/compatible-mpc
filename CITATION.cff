@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the articles below."
+title: "compatible-mpc: safe learning-based MPC with the compatible models approach"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Makdesi
+    given-names: Anas
+  - family-names: Girard
+    given-names: Antoine
+    affiliation: "Université Paris-Saclay, CNRS, CentraleSupélec, Laboratoire des signaux et systèmes"
+  - family-names: Fribourg
+    given-names: Laurent
+    affiliation: "Université Paris-Saclay, CNRS, ENS Paris-Saclay, Laboratoire Méthodes Formelles"
+preferred-citation:
+  type: article
+  title: "Safe Learning-Based Model Predictive Control Using the Compatible Models Approach"
+  authors:
+    - family-names: Makdesi
+      given-names: Anas
+    - family-names: Girard
+      given-names: Antoine
+    - family-names: Fribourg
+      given-names: Laurent
+  journal: "European Journal of Control"
+  volume: 74
+  start: 100849
+  year: 2023
+  doi: "10.1016/j.ejcon.2023.100849"
+references:
+  - type: conference-paper
+    title: "Online Learning for Safe Model Predictive Control with the Compatible Models Approach"
+    authors:
+      - family-names: Makdesi
+        given-names: Anas
+      - family-names: Girard
+        given-names: Antoine
+      - family-names: Fribourg
+        given-names: Laurent
+    conference:
+      name: "8th IFAC Conference on Analysis and Design of Hybrid Systems (ADHS)"
+    start: 147
+    end: 152
+    year: 2024
+    doi: "10.1016/j.ifacol.2024.07.439"
